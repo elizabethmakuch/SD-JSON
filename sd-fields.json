@@ -1,0 +1,129 @@
+{
+    "type": "object",
+    "title": "Basic Information About You",
+    "properties": {
+        "county_name": {
+            "type": "string",
+            "title": "South Dakota Absentee Ballot Application Form for ____ County. (List your County name)",
+            "br_required": true
+        },
+        "last_name": {
+            "type": "string",
+            "title": "Last Name",
+            "br_required": true
+        },
+        "first_name": {
+            "type": "string",
+            "title": "First Name",
+            "br_required": true
+        },
+        "middle_name": {
+            "type": "string",
+            "title": "Middle Name or Middle Initial"
+        },
+        "suffix": {
+            "type": "string",
+            "title": "Suffix"
+        },
+        "reg_address_section": {
+            "type": "string",
+            "title": "Voter Registration Address",
+            "format": "title"
+        },
+        "reg_address_description": {
+            "type": "string",
+            "title": "This is the address the clerk will match to the voter file to see if you're eligible to vote by mail.",
+            "format": "hidden-field"
+        },
+        "reg_address_line_1": {
+            "type": "string",
+            "title": "Street Address",
+            "br_required": true
+        },
+        "reg_address_line_2": {
+            "type": "string",
+            "title": "Apt or Lot",
+            "br_required": true
+        },
+        "reg_city_state": {
+            "type": "string",
+            "title": "City, State",
+            "br_required": true
+        },
+        "reg_zipcode": {
+            "type": "string",
+            "title": "Zipcode",
+            "format": "zipcode",
+            "br_required": true
+        },
+        "mailing_info_title": {
+            "type": "string",
+            "title": "Absentee ballot mailing address (if different from the Voter Registration Address entered above)",
+            "format": "title"
+        },
+        "mail_address": {
+            "type": "string",
+            "title": "Mailing Street Address and Apt Number "
+        },
+        "mail_city_state": {
+            "type": "string",
+            "title": "Mailing City, State"
+        },
+        "mail_zip": {
+            "type": "number",
+            "title": "Mailing Zip Code",
+            "format": "zipcode"
+        },
+        "phone": {
+            "type": "number",
+            "title": "Phone Number",
+            "format": "phone-us",
+            "br_required": true
+        },
+        "id_number_title": {
+            "type": "string",
+            "title": "An acceptable ID is: A South Dakota driver's license or non-driver ID card, a passport or other picture ID issued by the United States government, a tribal photo ID, or a current student photo ID issued by a South Dakota high school or postsecondary education institution. ",
+            "format": "title"
+        },
+        "messenger_contact_info_title": {
+            "type": "string",
+            "title": "AUTHORIZED MESSENGER REQUEST DUE TO SICKNESS OR DISABILITY ONLY: The deadline to request is 3:00 p.m. on Election Day",
+            "format": "title"
+        },
+        "messenger_contact_description": {
+            "type": "string",
+            "title": "As a registered voter, I authorize [name of messenger listed below] to serve as my authorized messenger to pick up my absentee ballot. I further certify under penalty of law that I am confined because of sickness or disability and for this reason alone am unable to vote at my polling place on Election Day. ",
+            "format": "hidden-field"
+        },
+        "messenger_contact_last_name": {
+            "type": "string",
+            "title": "Authorized Messenger Last Name"
+        },
+        "messenger_contact_first_name": {
+            "type": "string",
+            "title": "Authorized Messenger First Name"
+        },
+        "messenger_contact_phone": {
+            "type": "number",
+            "title": "Authorized Messenger Phone",
+            "format": "phone-us"
+        },
+        "messenger_reg_address": {
+            "type": "string",
+            "title": "Authorized Messenger Street Address"
+        },
+        "messenger_reg_address_line_2": {
+            "type": "string",
+            "title": "Authorized Messenger Street Address Unit or Lot Number"
+        },
+        "messenger_city_state": {
+            "type": "string",
+            "title": "Authorized Messenger City, State"
+        },
+        "messenger_zipcode": {
+            "type": "number",
+            "title": "Authorized Messenger Zip Code",
+            "format": "zipcode"
+        }
+    }
+}

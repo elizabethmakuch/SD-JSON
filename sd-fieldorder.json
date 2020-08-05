@@ -1,0 +1,30 @@
+{
+    "top": [
+        "county_name",
+        "last_name",
+        "first_name",
+        "middle_name",
+        "suffix",
+        "reg_address_section",
+        "reg_address_description",
+        "reg_address_line_1",
+        "reg_address_line_2",
+        "reg_city_state",
+        "reg_zipcode",
+        "mailing_info_title",
+        "mail_address",
+        "mail_city_state",
+        "mail_zip",
+        "phone",
+        "id_number_title",
+        "messenger_contact_info_title",
+        "messenger_contact_description",
+        "messenger_contact_last_name",
+        "messenger_contact_first_name",
+        "messenger_contact_phone",
+        "messenger_reg_address",
+        "messenger_reg_address_line_2",
+        "messenger_city_state",
+        "messenger_zipcode"
+    ]
+}

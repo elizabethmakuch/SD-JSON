@@ -1,0 +1,32 @@
+{
+    "fieldnames": [
+        {
+            "name": "Last Name",
+            "maps_to": "last_name"
+        },
+        {
+            "name": "First Name",
+            "maps_to": "first_name"
+        },
+        {
+            "name": "Middle NamesInitial",
+            "maps_to": "middle_name"
+        },
+        {
+            "name": "Suffix",
+            "maps_to": "suffix"
+        },
+        {
+            "name": "Zip Code",
+            "maps_to": "reg_zipcode"
+        },
+        {
+            "name": "SELECT THE ELECTIONS YOU ARE REQUESTING AN ABSENTEE BALLOT FOR If your address changes after this is submitted you must submit a new form",
+            "maps_to": "mail_address"
+        },
+        {
+            "name": "Daytime telephone number",
+            "maps_to": "phone"
+        }
+    ]
+}
