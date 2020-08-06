@@ -17,6 +17,18 @@
             "maps_to": "suffix"
         },
         {
+            "name": "Voter Registration Address",
+            "maps_to": "reg_address"
+        },
+        {
+            "name": "City State",
+            "maps_to": "reg_city"
+        },
+        {
+            "name": "City State",
+            "maps_to": "reg_state"
+        },
+        {
             "name": "Zip Code",
             "maps_to": "reg_zipcode"
         },
