@@ -35,19 +35,19 @@
             "title": "This is the address the clerk will match to the voter file to see if you're eligible to vote by mail.",
             "format": "hidden-field"
         },
-        "reg_address_line_1": {
+        "reg_address": {
             "type": "string",
             "title": "Street Address",
             "br_required": true
         },
-        "reg_address_line_2": {
-            "type": "string",
-            "title": "Apt or Lot",
-            "br_required": true
-        },
-        "reg_city_state": {
+        "reg_city": {
             "type": "string",
             "title": "City, State",
+            "br_required": true
+        },
+        "reg_state": {
+            "type": "string",
+            "title": "State",
             "br_required": true
         },
         "reg_zipcode": {
@@ -63,16 +63,24 @@
         },
         "mail_address": {
             "type": "string",
-            "title": "Mailing Street Address and Apt Number "
+            "title": "Mailing Street Address and Apt Number"
+            "br_required": true
         },
-        "mail_city_state": {
+        "mail_city": {
             "type": "string",
-            "title": "Mailing City, State"
+            "title": "Mailing City"
+            "br_required": true
+        },
+        "mail_state": {
+            "type": "string",
+            "title": "Mailing State"
+            "br_required": true
         },
         "mail_zip": {
             "type": "number",
             "title": "Mailing Zip Code",
             "format": "zipcode"
+            "br_required": true
         },
         "phone": {
             "type": "number",
